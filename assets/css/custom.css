@@ -1,0 +1,39 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.font-title{
+    font-family: 'PT Serif', serif;
+}
+
+a:hover{
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+.underline{
+    height: 5px;
+    width: 150px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .container{
+    padding-top:50px;
+    margin: auto;
+  }

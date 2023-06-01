@@ -1,0 +1,20 @@
+AMBER RED: style="background-color: rgb(220,53,69);"
+MUSTARD YELLOW: style="background-color: rgb(255,193,7);"
+URANIAN BLUE: style="background-color: rgb(162,214,249);"
+BUTTON BLUE: style="background-color: rgb(51,84,209);"
+CHOCOLATE COSMOS: style="background-color: rgb(33,2,3);"
+
+SHADOW: box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+hr: border:10px solid color; border-radius:5px;
+
+text-align: center;
+border-width: medium|thin|thick|length|initial|inherit;
+
+CATEGORY.PHP REMOVED SEGMENT
+<form action="code.php" method="POST">
+    <input type="hidden" name="category_id" value="<?= $item['id']; ?>">
+    <button type="submit" class="btn btn-danger" name="delete_category_btn">Delete</button>
+</form> 
+
+exampleInputPassword1
